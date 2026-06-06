@@ -1,0 +1,42 @@
+
+.contenido{
+    min-height: 400px;
+}
+
+.bodycs{
+    background-color: lightblue;
+}
+
+.hcolor{
+    color:red;
+}
+.footer-text{
+    text-align: center;
+}
+
+.cenimg{
+    margin:auto;
+}
+
+@media (max-width: 768px){
+    .hcolor{
+        font-size: 25px;
+        text-align: center;
+    }
+
+
+    .d-flex{
+        flex-direction: column;
+    }
+
+
+
+}
+#btnSubir{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
